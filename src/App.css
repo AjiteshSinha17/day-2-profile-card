@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
-}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* 🔥 IMPORTANT BACKGROUND */
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* MAIN */
+.app {
+  text-align: center;
+  padding: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 🌟 GLASS PROFILE CARD */
+.profile-card {
+  width: 320px;
+  margin: 0 auto;
+
+  /* GLASS EFFECT */
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 15px;
+  padding: 25px;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+  transition: 0.3s;
+}
+
+.profile-card:hover {
+  transform: scale(1.03);
+}
+
+/* TEXT */
+.name {
+  color: #4caf50;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 12px;
+  margin: 15px 0;
+}
+
+/* SOCIAL */
+.socials a {
+  margin: 10px;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: #4caf50;
+}
+
+/* BUTTON */
+.hire-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: rgba(76, 175, 80, 0.8);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+/* PROJECTS (normal, NOT glass) */
+.projects {
+  margin-top: 40px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background: #1a1a1a;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
 }
