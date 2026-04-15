@@ -10,7 +10,7 @@ function App() {
 
       <ProfileCard />
 
-      <Projects />
+      {/* <Projects /> */}
     </div>
   );
 }
