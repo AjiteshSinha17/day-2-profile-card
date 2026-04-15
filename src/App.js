@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileCard from "./components/ProfileCard";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import "./App.css";
 
 function App() {
