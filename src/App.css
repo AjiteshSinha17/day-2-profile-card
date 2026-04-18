@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 
-  /* 🔥 IMPORTANT BACKGROUND */
+  /* IMPORTANT BACKGROUND */
   background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
   color: white;
 }
@@ -59,7 +59,7 @@ body {
   color: #4caf50;
 }
 
-/* BUTTON */
+
 .hire-btn {
   margin-top: 15px;
   padding: 10px 20px;
@@ -70,7 +70,7 @@ body {
   cursor: pointer;
 }
 
-/* PROJECTS (normal, NOT glass) */
+
 .projects {
   margin-top: 40px;
 }
@@ -91,4 +91,243 @@ body {
 .project-card img {
   width: 100%;
   border-radius: 10px;
+}
+
+
+.skills {
+  margin-top: 40px;
+}
+
+
+
+.education-card {
+  width: 320px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.education-item {
+  margin-bottom: 15px;
+}
+
+
+.experience {
+}
+
+.experience-card {
+  width: 320px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.experience-item {
+  margin-bottom: 15px;
+}
+
+
+
+.about-card {
+  width: 320px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.about-description p {
+  margin-bottom: 10px;
+}
+
+
+.education-experience-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+
+.profile-about-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.skills-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #4caf50;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(76, 175, 80, 0.3);
+  border: 1px solid rgba(76, 175, 80, 0.4);
+}
+
+.skill-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(90deg, #4caf50, #81c784);
+  transition: width 0.5s ease;
+}
+
+.skill-percentage {
+  font-size: 14px;
+  color: #b0b0b0;
+  margin: 8px 0 0 0;
+}
+
+
+.about-section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease;
+  text-align: left;
+  width: 320px;
+  margin: 0 auto;
+}
+
+
+
+.about-title {
+  font-size: 28px;
+  color: #4caf50;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #e0e0e0;
+}
+
+.about-description p {
+  margin: 12px 0;
+  text-align: justify;
+}
+.experience-section {
+  margin-top: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease;
+  text-align: left;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.experience-title {
+  font-size: 28px;
+  color: #4caf50;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.experience-item {
+  margin: 12px 0;
+  text-align: justify;
+}
+
+.education-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease;
+  text-align: left;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.education-title {
+  font-size: 28px;
+  color: #4caf50;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.education-item {
+  margin: 12px 0;
+  text-align: justify;
 }

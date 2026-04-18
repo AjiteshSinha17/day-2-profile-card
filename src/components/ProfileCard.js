@@ -24,7 +24,7 @@ function ProfileCard() {
                 </a>
             </div>
 
-            {/* <button className="hire-btn">Hire Me</button> */}
+            <button className="hire-btn">Hire Me</button>
         </div>
     );
 }
